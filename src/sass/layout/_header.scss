@@ -2,13 +2,17 @@
     margin: 33px 160px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 
     .header__ul{
         display: flex;
         justify-content: space-between;
         list-style: none;
         gap: 56px;
-
+        font-size: 18px;
+        li:hover{
+            color: white;
+        }
     }
 
 }
