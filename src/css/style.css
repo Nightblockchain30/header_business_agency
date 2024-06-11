@@ -6,6 +6,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+.header__container {
+  margin: 33px 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__container .header__ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 56px;
+}
+
 .main__container .main__h1 {
   font-family: "Bebas Neue", sans-serif;
 }
