@@ -1,0 +1,17 @@
+.footer__container{
+    margin:13px 160px 13px 160px;
+    display: flex;
+    gap: 32px;
+    .footer__container-article{
+        padding: 32px 44px 32px 32px;
+        img{
+            margin-bottom: 8px;
+        }
+        h4{
+            margin-bottom: 8px;     
+            font-size: 24px;
+            color: $black;
+            font-weight: 600;
+        }
+    }
+}

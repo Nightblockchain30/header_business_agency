@@ -6,6 +6,24 @@
   font-family: "Poppins", sans-serif;
 }
 
+.footer__container {
+  margin: 13px 160px 13px 160px;
+  display: flex;
+  gap: 32px;
+}
+.footer__container .footer__container-article {
+  padding: 32px 44px 32px 32px;
+}
+.footer__container .footer__container-article img {
+  margin-bottom: 8px;
+}
+.footer__container .footer__container-article h4 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  color: #424241;
+  font-weight: 600;
+}
+
 .header__container {
   margin: 33px 160px;
   display: flex;
@@ -62,6 +80,7 @@
   font-size: 48px;
   color: #424241;
   font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
 }
 .main__container .main__section p {
   color: #909090;
