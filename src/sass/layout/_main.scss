@@ -29,9 +29,8 @@
             color: $black;
             font-weight: 300;
             transform: translate(5px, 1px);
-            -webkit-box-shadow: 17px 14px 22px -10px rgba(0,0,0,0.46);
-            -moz-box-shadow: 17px 14px 22px -10px rgba(0,0,0,0.46);
             box-shadow: 17px 14px 22px -10px rgba(0,0,0,0.46);
+            cursor: pointer;
         }
     }
     .main__section{
@@ -49,6 +48,8 @@
             transition: 1.3s ease;
             &:hover{
                 transform: scale(1.3);
+                cursor: default;
+
             }
         }
         p{

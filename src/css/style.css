@@ -29,6 +29,7 @@
 }
 .footer__container .footer__container-article:hover {
   border: 2px solid #7EDAD2;
+  cursor: default;
 }
 
 .header__container {
@@ -48,13 +49,11 @@
 .header__container .header__ul li:hover {
   color: white;
   transform: scale(1.3);
+  cursor: pointer;
 }
 .header__container .header__figure:hover {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5);
   transform: scale(1.5);
+  cursor: pointer;
 }
 
 .main__container {
@@ -89,9 +88,8 @@
   color: #424241;
   font-weight: 300;
   transform: translate(5px, 1px);
-  -webkit-box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
   box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
+  cursor: pointer;
 }
 .main__container .main__section {
   text-align: center;
@@ -109,6 +107,7 @@
 }
 .main__container .main__section h3:hover {
   transform: scale(1.3);
+  cursor: default;
 }
 .main__container .main__section p {
   color: #909090;
