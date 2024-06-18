@@ -29,7 +29,7 @@
 }
 .footer__container .footer__container-article:hover {
   border: 2px solid #7EDAD2;
-  cursor: default;
+  cursor: pointer;
 }
 
 .header__container {
@@ -54,6 +54,10 @@
   transform: scale(1.3);
   cursor: pointer;
   color: white;
+}
+.header__container .header__ul li a:active {
+  cursor: pointer;
+  color: #424241;
 }
 .header__container .header__figure:hover {
   transform: scale(1.5);
@@ -93,6 +97,14 @@
   font-weight: 300;
   transform: translate(5px, 1px);
   box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
+  cursor: pointer;
+}
+.main__container .main__button:active {
+  color: #FAFAFA;
+  font-weight: 600;
+  transform: translate(5px, 1px);
+  box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
+  background-color: #424241;
   cursor: pointer;
 }
 .main__container .main__section {

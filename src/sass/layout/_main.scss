@@ -1,60 +1,77 @@
- .main__container{
-    margin-left: 160px;
-    .main__h1{
-        font-family:$secondary-font;
-        font-size: 120px;
-        font-weight: 400;
-        color: $black;
-        line-height: 120px;
-        margin-bottom: 8px;
+ .main__container {
+     margin-left: 160px;
 
-        span {
-            font-family:$secondary-font;
-            color: $blue;
-        }
-    }
-    .main__p{
-        color: $grey;
-        font-size: 24px;
-        margin-bottom: 40px;
-    }
-    .main__button{
-        background-color: $blue;
-        color: $white;
-        padding: 16.5px 34px;
-        font-size: 18px;
-        margin-bottom: 56px;
-        border:0px;
-        &:hover{
-            color: $black;
-            font-weight: 300;
-            transform: translate(5px, 1px);
-            box-shadow: 17px 14px 22px -10px rgba(0,0,0,0.46);
-            cursor: pointer;
-        }
-    }
-    .main__section{
-        text-align: center;
-        display: flex;
-        gap:80px;
-        align-items: center;
-        margin-bottom: 64px;
-        h3{
-            font-size: 48px;
-            color: $black;
-            font-family: $secondary-font;
-            font-weight: 600;
+     .main__h1 {
+         font-family: $secondary-font;
+         font-size: 120px;
+         font-weight: 400;
+         color: $black;
+         line-height: 120px;
+         margin-bottom: 8px;
 
-            transition: 1.3s ease;
-            &:hover{
-                transform: scale(1.3);
-                cursor: default;
+         span {
+             font-family: $secondary-font;
+             color: $blue;
+         }
+     }
 
-            }
-        }
-        p{
-            color: $grey;
-            font-size: 18px;
-        }
-    }
+     .main__p {
+         color: $grey;
+         font-size: 24px;
+         margin-bottom: 40px;
+     }
+
+     .main__button {
+         background-color: $blue;
+         color: $white;
+         padding: 16.5px 34px;
+         font-size: 18px;
+         margin-bottom: 56px;
+         border: 0px;
+
+         &:hover {
+             color: $black;
+             font-weight: 300;
+             transform: translate(5px, 1px);
+             box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
+             cursor: pointer;
+         }
+
+         &:active {
+             color: $white;
+             font-weight: 600;
+             transform: translate(5px, 1px);
+             box-shadow: 17px 14px 22px -10px rgba(0, 0, 0, 0.46);
+             background-color: $black;
+             cursor: pointer;
+         }
+     }
+
+     .main__section {
+         text-align: center;
+         display: flex;
+         gap: 80px;
+         align-items: center;
+         margin-bottom: 64px;
+
+         h3 {
+             font-size: 48px;
+             color: $black;
+             font-family: $secondary-font;
+             font-weight: 600;
+
+             transition: 1.3s ease;
+
+             &:hover {
+                 transform: scale(1.3);
+                 cursor: default;
+
+             }
+         }
+
+         p {
+             color: $grey;
+             font-size: 18px;
+         }
+     }
  }
